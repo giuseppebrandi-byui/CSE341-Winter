@@ -6,4 +6,8 @@ const charlieRoute = (req, res) => {
   res.send('Hello, Charlie Brown');
 };
 
-module.exports = {giuseppeRoute, charlieRoute} 
+const JillRoute = (req, res) => {
+  res.send('Hello, Jill Smith');
+};
+
+module.exports = {giuseppeRoute, charlieRoute, JillRoute}; 
